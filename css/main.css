@@ -4,6 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #000;
     color: #fff;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -26,6 +27,7 @@ body {
     line-height: 33px;
     letter-spacing: 0.01em;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .header__navbar {
     width: 348px;
@@ -35,6 +37,7 @@ body {
     justify-content: space-between;
 }
 .header__navbar-link {
+    cursor: pointer;
     margin-right: 50px;
 }
 .header__navbar-link:last-child {
@@ -52,6 +55,7 @@ body {
     width: 13.84px;
     height: 13.84px;
     margin-right: 17px;
+    cursor: pointer;
 }
 .header__search-span {
     font-weight: 400;
@@ -65,14 +69,13 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* width: 1920px; */
     height: 1573px;
     background-image: url('../img/intro_background.png');
-    /* background-size: 100vw; */
 }
 .intro__span {
     display: flex;
     align-items: center;
+    width: 950px;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -154,7 +157,7 @@ body {
     position: absolute;
     top: 1429px;
     width: 1920px;
-    padding: 0 229px 118px 229px;
+    padding: 0 229px 0 229px;
 }
 
 /* Nusa */
@@ -217,6 +220,7 @@ body {
     line-height: 25px;
     color: #FBD784;
     margin-right: 9px;
+    cursor: pointer;
 }
 .nusa__content-link-arrow {
     width: 16px;
@@ -295,6 +299,7 @@ body {
     line-height: 25px;
     color: #FBD784;
     margin-right: 9px;
+    cursor: pointer;
 }
 .bromo__content-link-arrow {
     width: 24px;
@@ -361,6 +366,7 @@ body {
     line-height: 25px;
     color: #FBD784;
     margin-right: 9px;
+    cursor: pointer;
 }
 .culture__content-link-arrow {
     width: 24px;
@@ -409,6 +415,11 @@ body {
     line-height: 22px;
     color: #000000;
 }
+.footer__head-button:hover {
+    border: 1px solid #FFA343;
+    background: transparent;
+    color: #FFA343;
+}
 .footer__links {
     display: flex;
     justify-content: space-between;
@@ -431,7 +442,6 @@ body {
 }
 .footer__subscribe-form {
     display: flex;
-    border: 1px dotted #434343;
 }
 .input__submit-form {
     width: 330px;
@@ -442,12 +452,13 @@ body {
     line-height: 20px;
     background-color: transparent;
     color: #fff;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.3);
 }
 .input__submit-btn {
     width: 69px;
     height: 69px;
     background: #FFA343;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 8px 8px 0px 0px;
     background-repeat: no-repeat;
 }
 
@@ -519,6 +530,7 @@ body {
 }
 .copyright__social-link {
     margin-right: 51.7px;
+    cursor: pointer;
 }
 .copyright__social-link:last-child {
     margin-right: 0;
