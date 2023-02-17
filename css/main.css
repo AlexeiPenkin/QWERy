@@ -445,7 +445,7 @@ body {
 }
 .input__submit-form {
     width: 330px;
-    border-radius: 8px 0px 0px 8px;
+    /* border-radius: 8px 0px 0px 8px; */
     padding: 10px;
     font-weight: 400;
     font-size: 15px;
