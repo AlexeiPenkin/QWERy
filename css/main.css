@@ -493,6 +493,7 @@ body {
     line-height: 0px;
     letter-spacing: -0.204545px;
     margin-bottom: 45px;
+    cursor: pointer;
 }
 .links__block-item:last-child {
     margin-bottom: 0;
@@ -518,6 +519,7 @@ body {
     line-height: 20px;
     letter-spacing: -0.204545px;
     margin-right: 50px;
+    cursor: pointer;
 }
 .footer__legal-link:last-child {
     margin-right: 0;
