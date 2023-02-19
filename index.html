@@ -1,244 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <title>Discover Wonderful Indonesia</title>
+	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
 </head>
 <body>
+		<!-- Начало: Данный блок удалять нельзя -->
+		<style>
+			.maketforfigma{
+				flex: 0 0 auto;
+				/*background: #303b44;*/
+				/*background: #5CDB95;*/
+				background: #313a46;
+				font-weight: bold;
+				display: flex;
+			}
+			.maketforfigma img{
+				border-radius: 10px;
+				margin: 4px 0 0 4px;
+			}
+			.maketforfigma p {
+				/*color: #fff;*/
+				/*color: #05386B;*/
+				color: #98a6ad;
+				text-decoration: none;
+				letter-spacing: .01875rem;
+				font-size: .775rem;
+				padding: 0 10px;
+				line-height: 0.70rem;
+			}
 
-    <header class="header">
-        <div class="header__logo">QWERy</div>
-        <nav class="header__navbar">
-            <ul class="header__navbar-links">
-                <a href="#nusa" class="header__navbar-link">Information</a>
-                <a href="#bromo" class="header__navbar-link">About us</a>
-                <a href="#culture" class="header__navbar-link">Culture</a>
-            </ul>
-        </nav>
-        <div class="header__search">
-            <img src="./img/header_magnifying-glass.svg" alt="icon" class="header__search-magnifying-glass">
-            <span class="header__search-span">Search</span>
-        </div>
-    </header>
+			.maketforfigma p > a {
+				/*color: #08ff00;*/
+				/*color: #EDF5E1;*/
+				color: #bbe4f0;
+				font-weight: bold;
+			}
+			.maketforfigma p > a:hover {
+				/*color: #ffa001*/
+				/*color: #379683*/
+				color: #ffffff
+			}
 
-    <section class="intro">
+			.main{
+				flex: 1 0 auto;
+			}
 
-        <div class="intro__socials">
-            <span class="info__span">Follow us</span>
-            <div class="info__social-links">
-                <a href="https://www.instagram.com" class="social__icon-link" target="_blank">
-                    <img src="./img/social-Instagram.svg" alt="icon" class="social__icon">
-                </a>
-                <a href="https://www.twitter.com" class="social__icon-link" target="_blank">
-                    <img src="./img/social-Twitter.svg" alt="icon" class="social__icon">
-                </a>
-                <a href="https://www.facebook.com" class="social__icon-link" target="_blank">
-                    <img src="./img/social-Facebook.svg" alt="icon" class="social__icon">
-                </a>
-            </div>
-        </div>
+			html{
+				height: 100%;
+			}
 
-        <div class="intro__info">
+			body{
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+		<div class="maketforfigma">
+			<a href="https://t.me/s/FigmaToHTML" target="_blank">
+				<img src="logo.png">
+			</a>
+			<div>
+				<p>
+					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+				</p>
+				<p>
+					При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+				</p>
+			</div>
+		</div>
+		<!-- Конец -->
 
-            <span class="intro__span">
-                <img src="./img/intro_span-line.png" alt="line" class="span__line" id="intro__span-line">
-                Explore the Nature Beauty
-            </span>
+		<div class="main">
 
-            <h1 class="intro__info-title"><span>Discover</span><br> Wonderful Indonesia</h1>
-
-        </div>
-
-        <div class="intro__info-span">
-            <span class="info-span">Scroll down</span>
-            <img src="./img/intro_arrow_downward.png" alt="icon" class="info-span__arrow">
-        </div>
-
-    </section>
-
-    <section class="main">
-
-        <main class="main__container">
-
-            <section class="nusa" id="nusa">
-
-                <img src="./img/nusa_img.png" alt="photo" class="nusa__content-img">
-
-                <div class="nusa__content">
-
-                    <div class="nusa__info">
-
-                        <span class="nusa__span">
-                            <img src="./img/intro_span-line.png" alt="line" class="span__line" id="nusa__span-line">
-                            east nusa tenggara
-                        </span>
-
-                        <h2 class="nusa__content-title">Have you enjoyed your holiday?</h2>
-
-                        <p class="nusa__content-text">
-                            You will be amazed if you take part in this sailing Komodo island tour package. So it is
-                            also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to
-                            taste the marine tourism. The beautiful waters of Komodo will make you meet many travelers
-                            from other countries.
-                        </p>
-
-                        <div class="nusa__content-link">
-                            <span class="nusa__content-link-span">read more</span>
-                            <img src="./img/nusa_arrow_rightward.png" alt="icon" class="nusa__content-link-arrow">
-                        </div>
-
+            <header class="header">
+                <div class="header__logo">QWERy</div>
+                <nav class="header__navbar">
+                    <ul class="header__navbar-links">
+                        <a href="#nusa" class="header__navbar-link">Information</a>
+                        <a href="#bromo" class="header__navbar-link">About us</a>
+                        <a href="#culture" class="header__navbar-link">Culture</a>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <img src="./img/header_magnifying-glass.svg" alt="icon" class="header__search-magnifying-glass">
+                    <span class="header__search-span">Search</span>
+                </div>
+            </header>
+        
+            <section class="intro">
+        
+                <div class="intro__socials">
+                    <span class="info__span">Follow us</span>
+                    <div class="info__social-links">
+                        <a href="https://www.instagram.com" class="social__icon-link" target="_blank">
+                            <img src="./img/social-Instagram.svg" alt="icon" class="social__icon">
+                        </a>
+                        <a href="https://www.twitter.com" class="social__icon-link" target="_blank">
+                            <img src="./img/social-Twitter.svg" alt="icon" class="social__icon">
+                        </a>
+                        <a href="https://www.facebook.com" class="social__icon-link" target="_blank">
+                            <img src="./img/social-Facebook.svg" alt="icon" class="social__icon">
+                        </a>
                     </div>
-
                 </div>
-
-            </section>
-
-            <section class="bromo" id="bromo">
-
-                <div class="bromo__arrows">
-                    <img src="./img/bromo_chevron-left.png" alt="icon" class="">
-                    <img src="./img/bromo_chevron-right.png" alt="icon" class="">
-                </div>
-
-                <div class="bromo__content">
-
-                    <div class="brumo__info">
-
-                        <span class="bromo__span">
-                            <img src="./img/intro_span-line.png" alt="line" class="span__line" id="bromo__span-line">
-                            bromo
-                            <img src="./img/intro_span-line.png" alt="line" class="span__line">
-                        </span>
-
-                        <div class="bromo__content-title">
-                            <h2 class="content-title">Steady your steps, we will climb together!</h2>
-                        </div>
-
-                        <p class="bromo__content-text">
-                            Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru
-                            that soars into the sky, and gazing at the beauty of the sun moving out of its bed or
-                            otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when
-                            visiting Bromo.
-                        </p>
-
-                        <div class="bromo__content-link">
-                            <span class="bromo__content-link-span">read more</span>
-                            <img src="./img/nusa_arrow_rightward.png" alt="icon" class="bromo__content-link-arrow">
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section class="culture" id="culture">
-
-                <div class="culture__content">
-
-                    <span class="culture__span">
-                        <img src="./img/intro_span-line.png" alt="line" class="span__line" id="culture__span-line">
-                        INDONESIAN CULTURE
+        
+                <div class="intro__info">
+        
+                    <span class="intro__span">
+                        <img src="./img/intro_span-line.png" alt="line" class="span__line" id="intro__span-line">
+                        Explore the Nature Beauty
                     </span>
-
-                    <h2 class="culture__content-title">Our culture here is very friendly to people</h2>
-
-                    <p class="culture__content-text">
-                        known for his politeness, manners and gentleness. This becomes a characteristic when they mingle
-                        with other tribes and become basic traits that are passed down by their ancestors.
-                    </p>
-
-                    <div class="culture__content-link">
-                        <span class="culture__content-link-span">read more</span>
-                        <img src="./img/nusa_arrow_rightward.png" alt="icon" class="culture__content-link-arrow">
-                    </div>
-
+        
+                    <h1 class="intro__info-title"><span>Discover</span><br> Wonderful Indonesia</h1>
+        
                 </div>
-
-                <img src="./img/culture__background.png" alt="photo" class="culture__content-img">
-
+        
+                <div class="intro__info-span">
+                    <span class="info-span">Scroll down</span>
+                    <img src="./img/intro_arrow_downward.png" alt="icon" class="info-span__arrow">
+                </div>
+        
+            </section>
+        
+            <section class="main">
+        
+                <main class="main__container">
+        
+                    <section class="nusa" id="nusa">
+        
+                        <img src="./img/nusa_img.png" alt="photo" class="nusa__content-img">
+        
+                        <div class="nusa__content">
+        
+                            <div class="nusa__info">
+        
+                                <span class="nusa__span">
+                                    <img src="./img/intro_span-line.png" alt="line" class="span__line" id="nusa__span-line">
+                                    east nusa tenggara
+                                </span>
+        
+                                <h2 class="nusa__content-title">Have you enjoyed your holiday?</h2>
+        
+                                <p class="nusa__content-text">
+                                    You will be amazed if you take part in this sailing Komodo island tour package. So it is
+                                    also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to
+                                    taste the marine tourism. The beautiful waters of Komodo will make you meet many travelers
+                                    from other countries.
+                                </p>
+        
+                                <div class="nusa__content-link">
+                                    <span class="nusa__content-link-span">read more</span>
+                                    <img src="./img/nusa_arrow_rightward.png" alt="icon" class="nusa__content-link-arrow">
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                    </section>
+        
+                    <section class="bromo" id="bromo">
+        
+                        <div class="bromo__arrows">
+                            <img src="./img/bromo_chevron-left.png" alt="icon" class="">
+                            <img src="./img/bromo_chevron-right.png" alt="icon" class="">
+                        </div>
+        
+                        <div class="bromo__content">
+        
+                            <div class="brumo__info">
+        
+                                <span class="bromo__span">
+                                    <img src="./img/intro_span-line.png" alt="line" class="span__line" id="bromo__span-line">
+                                    bromo
+                                    <img src="./img/intro_span-line.png" alt="line" class="span__line">
+                                </span>
+        
+                                <div class="bromo__content-title">
+                                    <h2 class="content-title">Steady your steps, we will climb together!</h2>
+                                </div>
+        
+                                <p class="bromo__content-text">
+                                    Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru
+                                    that soars into the sky, and gazing at the beauty of the sun moving out of its bed or
+                                    otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when
+                                    visiting Bromo.
+                                </p>
+        
+                                <div class="bromo__content-link">
+                                    <span class="bromo__content-link-span">read more</span>
+                                    <img src="./img/nusa_arrow_rightward.png" alt="icon" class="bromo__content-link-arrow">
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                    </section>
+        
+                    <section class="culture" id="culture">
+        
+                        <div class="culture__content">
+        
+                            <span class="culture__span">
+                                <img src="./img/intro_span-line.png" alt="line" class="span__line" id="culture__span-line">
+                                INDONESIAN CULTURE
+                            </span>
+        
+                            <h2 class="culture__content-title">Our culture here is very friendly to people</h2>
+        
+                            <p class="culture__content-text">
+                                known for his politeness, manners and gentleness. This becomes a characteristic when they mingle
+                                with other tribes and become basic traits that are passed down by their ancestors.
+                            </p>
+        
+                            <div class="culture__content-link">
+                                <span class="culture__content-link-span">read more</span>
+                                <img src="./img/nusa_arrow_rightward.png" alt="icon" class="culture__content-link-arrow">
+                            </div>
+        
+                        </div>
+        
+                        <img src="./img/culture__background.png" alt="photo" class="culture__content-img">
+        
+                    </section>
+        
+                    <footer class="footer">
+        
+                        <div class="footer__head">
+                            <p class="footer__head-logo">QWERy</p>
+                            <span class="footer__head-span">Ready to explore?</span>
+                            <button class="footer__head-button">Get started</button>
+                        </div>
+        
+                        <div class="footer__links">
+        
+                            <div action="#" class="footer__head-input">
+                                <h3 class="input__title">Let's go on vacation, Make your day</h3>
+                                <div class="footer__subscribe-form">
+                                    <input type="text" class="input__submit-form" placeholder="Email address">
+                                    <button class="input__submit-btn">
+                                        <img src="./img/footer_arrow.svg" alt="icon" class="submit-btn-arrow">
+                                    </button>
+                                </div>
+                            </div>
+        
+                            <div class="links__block" id="services">
+                                <p class="links__block-heading">Services</p>
+                                <ul class="links__block-items">
+                                    <li class="links__block-item">Email Marketing</li>
+                                    <li class="links__block-item">Campaigns</li>
+                                    <li class="links__block-item">Branding</li>
+                                    <li class="links__block-item">Offline</li>
+                                </ul>
+                            </div>
+        
+                            <div class="links__block" id="about">
+                                <p class="links__block-heading">About</p>
+                                <ul class="links__block-items">
+                                    <li class="links__block-item">Our Story</li>
+                                    <li class="links__block-item">Benefits</li>
+                                    <li class="links__block-item">Team</li>
+                                    <li class="links__block-item">Careers</li>
+                                </ul>
+                            </div>
+        
+                            <div class="links__block" id="help">
+                                <p class="links__block-heading">Help</p>
+                                <ul class="links__block-items">
+                                    <li class="links__block-item">Help</li>
+                                    <li class="links__block-item">FAQs</li>
+                                    <li class="links__block-item">Contact Us</li>
+                                </ul>
+                            </div>
+        
+                        </div>
+        
+                        <div class="footer__socials">
+        
+                            <div class="footer__legal">
+                                <p class="footer__legal-link">Terms & Conditions</p>
+                                <p class="footer__legal-link">Privacy Policy</p>
+                            </div>
+        
+                            <div class="footer__socials-links">
+                                <a href="https://www.facebook.vom" class="copyright__social-link" target="_blank"><img src="./img/social-Facebook.svg" alt="icon" ></a>
+        
+                                <a href="https://www.twitter.vom" class="copyright__social-link" target="_blank"><img src="./img/social-Twitter.svg" alt="icon"></a>
+        
+                                <a href="https://www.instagram.vom" class="copyright__social-link" target="_blank"><img src="./img/social-Instagram.svg" alt="icon"></a>
+                            </div>
+        
+                        </div>
+        
+                        <p class="footer__copyright">Copyright 2021 QWERy</p>
+        
+                    </footer>
+        
+                </main>
+        
             </section>
 
-            <footer class="footer">
-
-                <div class="footer__head">
-                    <p class="footer__head-logo">QWERy</p>
-                    <span class="footer__head-span">Ready to explore?</span>
-                    <button class="footer__head-button">Get started</button>
-                </div>
-
-                <div class="footer__links">
-
-                    <div action="#" class="footer__head-input">
-                        <h3 class="input__title">Let's go on vacation, Make your day</h3>
-                        <div class="footer__subscribe-form">
-                            <input type="text" class="input__submit-form" placeholder="Email address">
-                            <button class="input__submit-btn">
-                                <img src="./img/footer_arrow.svg" alt="icon" class="submit-btn-arrow">
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="links__block" id="services">
-                        <p class="links__block-heading">Services</p>
-                        <ul class="links__block-items">
-                            <li class="links__block-item">Email Marketing</li>
-                            <li class="links__block-item">Campaigns</li>
-                            <li class="links__block-item">Branding</li>
-                            <li class="links__block-item">Offline</li>
-                        </ul>
-                    </div>
-
-                    <div class="links__block" id="about">
-                        <p class="links__block-heading">About</p>
-                        <ul class="links__block-items">
-                            <li class="links__block-item">Our Story</li>
-                            <li class="links__block-item">Benefits</li>
-                            <li class="links__block-item">Team</li>
-                            <li class="links__block-item">Careers</li>
-                        </ul>
-                    </div>
-
-                    <div class="links__block" id="help">
-                        <p class="links__block-heading">Help</p>
-                        <ul class="links__block-items">
-                            <li class="links__block-item">Help</li>
-                            <li class="links__block-item">FAQs</li>
-                            <li class="links__block-item">Contact Us</li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="footer__socials">
-
-                    <div class="footer__legal">
-                        <p class="footer__legal-link">Terms & Conditions</p>
-                        <p class="footer__legal-link">Privacy Policy</p>
-                    </div>
-
-                    <div class="footer__socials-links">
-                        <a href="https://www.facebook.vom" class="copyright__social-link" target="_blank"><img src="./img/social-Facebook.svg" alt="icon" ></a>
-
-                        <a href="https://www.twitter.vom" class="copyright__social-link" target="_blank"><img src="./img/social-Twitter.svg" alt="icon"></a>
-
-                        <a href="https://www.instagram.vom" class="copyright__social-link" target="_blank"><img src="./img/social-Instagram.svg" alt="icon"></a>
-                    </div>
-
-                </div>
-
-                <p class="footer__copyright">Copyright 2021 QWERy</p>
-
-            </footer>
-
-        </main>
-
-    </section>
-
+		</div>
 </body>
-
 </html>
